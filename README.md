@@ -160,7 +160,7 @@ Never commit your `.env` file or private credentials to GitHub. Add `.env` to `.
 
 ## 👨‍💻 About Me
 
-I'm Anup Kushwaha, a BCA graduate/student and aspiring Full-Stack Developer interested in building responsive, interactive, and user-friendly web applications.
+I'm Anup Kushwaha, a BCA graduate/student and Full-Stack Developer interested in building responsive, interactive, and user-friendly web applications.
 
 I enjoy learning modern web technologies, solving development problems, and turning ideas into practical projects.
 
