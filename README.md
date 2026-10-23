@@ -1,107 +1,176 @@
-# Full-Stack Developer Portfolio
 
-![Hero Section Preview](./hero_screenshot.png)
+# Anup Kushwaha | Full-Stack Developer Portfolio
 
-A high-performance, cinematic developer portfolio web application built with **React**, **Vite**, **Tailwind CSS**, **GSAP**, and **Lenis Smooth Scroll**. Designed with modern dark-mode aesthetics, rich micro-interactions, scroll-driven parallax effects, and ultra-responsive mobile viewports.
+A modern, cinematic and responsive developer portfolio built with React, Vite, Tailwind CSS, GSAP, and Lenis Smooth Scroll. This portfolio showcases my skills, featured projects, development workflow, and contact information.
 
----
+## 🚀 Live Portfolio
+
+🌐 **Portfolio:** https://sky-mart-pink.vercel.app/
+
+> Replace the link above with your portfolio website's actual deployed URL if this is a separate portfolio project.
 
 ## ✨ Features
 
-- 🎬 **Cinematic Motion & Animations**: GSAP ScrollTrigger timeline reveals, letter-scramble preloader, and smooth image parallax depth.
-- 🌊 **Inertial Smooth Scrolling**: Powered by Lenis smooth scroll engine with custom exponential deceleration curves synchronized to GSAP's ticker loop.
-- 📱 **Fully Responsive & Scalable**: Optimized for all device viewports (desktop, tablets, and mid-range mobile devices down to 320px).
-- 💼 **Featured Project Showcase**: Alternating project grid layout with tech stack badges, live demo links, and GitHub repository links.
-- 🛠️ **Process Workflow Cards**: Interactive step-by-step development process breakdown (`Define` → `Design` → `Build` → `Launch`).
-- 📧 **Direct Contact Integration**: Integrated contact section featuring EmailJS form submission capabilities and direct social links.
-
----
+- 🎬 Smooth animations and scroll-based transitions using GSAP.
+- 🌊 Smooth scrolling powered by Lenis.
+- 📱 Responsive design for desktop, tablet, and mobile devices.
+- 👨‍💻 About section featuring my background and technical skills.
+- 🛠️ Development workflow and services section.
+- 💼 Featured projects with GitHub repositories and live demos.
+- 📧 Contact form integration using EmailJS.
+- 🔗 Direct links to GitHub, LinkedIn, and email.
+- 🌙 Modern dark-themed design with vibrant accent colors.
 
 ## 🛠️ Tech Stack
 
-| Category | Technologies Used |
-| :--- | :--- |
-| **Core Frontend** | React 19, JavaScript (ES6+), HTML5 |
-| **Styling & Design** | Tailwind CSS v4, Modern CSS Glassmorphism |
-| **Animation & Physics** | GSAP 3 (GreenSock), ScrollTrigger, Lenis Smooth Scroll |
-| **Form Services** | EmailJS Browser Integration |
-| **Build & Tooling** | Vite, PostCSS, ESLint, Node.js |
+| Category | Technologies |
+|---|---|
+| Frontend | HTML5, CSS3, JavaScript (ES6+) |
+| Framework | React, Vite |
+| Styling | Tailwind CSS |
+| Animations | GSAP, ScrollTrigger |
+| Smooth Scrolling | Lenis |
+| API Integration | REST APIs, Axios |
+| Database | MongoDB, SQL |
+| Tools | Git, GitHub, VS Code |
+| Deployment | Vercel, Netlify |
+| Contact Form | EmailJS |
 
----
+## 💼 Featured Projects
 
-## 📁 Project Structure
+### 1. SkyMart — E-commerce Website
+A product-focused shopping application featuring a responsive interface and product browsing experience.
+
+- **Live Demo:** https://sky-mart-pink.vercel.app/
+- **GitHub:** https://github.com/anupkushwaha-cs/SkyMart
+- **Tech:** React, JavaScript, Tailwind CSS
+
+### 2. Advanced Weather App
+A weather application that displays weather information and air quality data using API integration.
+
+- **Live Demo:** https://anupsinghweatherapp.netlify.app/
+- **GitHub:** https://github.com/anupkushwaha-cs/WeatherApp
+- **Tech:** HTML, CSS, JavaScript, REST API
+
+### 3. Productivity Dashboard
+A productivity-focused dashboard designed to organize daily activities through a clean interface.
+
+- **Live Demo:** https://dashproductivitycohort.netlify.app/
+- **GitHub:** https://github.com/anupkushwaha-cs/Productivity-Dashboard
+- **Tech:** HTML, CSS, JavaScript
+
+### 4. FinTrack — Finance Tracker
+A finance tracking project focused on presenting financial information through a user-friendly interface.
+
+- **Live Demo:** https://fintrackcohort3.netlify.app/
+- **GitHub:** https://github.com/anupkushwaha-cs/FinTrack
+- **Tech:** HTML, CSS, JavaScript
+
+### 5. Lazarave UI
+A modern, animation-focused website interface inspired by contemporary web design.
+
+- **Live Demo:** https://lazaraveanup.netlify.app/
+- **GitHub:** https://github.com/anupkushwaha-cs/Lazarave
+- **Tech:** HTML, CSS, JavaScript, GSAP
+
+## 📂 Project Structure
 
 ```text
 portfolio/
 ├── public/
-│   └── favicon.svg
 ├── src/
-│   ├── assets/              # Project images, graphics, and video assets
-│   ├── components/          # Reusable UI components
-│   │   ├── Navbar.jsx       # Floating navbar with mobile drawer overlay
-│   │   ├── Hero.jsx         # Scramble text preloader & hero graphic
-│   │   ├── About.jsx        # Bio, interactive text reveal & skills marquee
-│   │   ├── Services.jsx     # Development process cards & services accordion
-│   │   ├── Project.jsx      # Featured project showcase & live demo links
-│   │   ├── Contact.jsx      # Contact info & EmailJS contact form
-│   │   └── Footer.jsx       # Branding footer & social links
+│   ├── assets/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Hero.jsx
+│   │   ├── About.jsx
+│   │   ├── Services.jsx
+│   │   ├── Project.jsx
+│   │   ├── Contact.jsx
+│   │   └── Footer.jsx
 │   ├── hooks/
-│   │   └── useLenis.js      # Lenis smooth scroll + GSAP ScrollTrigger sync hook
-│   ├── App.jsx              # Main app entry layout
-│   ├── index.css            # Custom CSS & marquee keyframe animations
-│   └── main.jsx             # React DOM root render
-├── index.html               # Main HTML template
-├── package.json             # Dependencies & scripts
-└── vite.config.js           # Vite dev server configuration
+│   │   └── useLenis.js
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── .env.example
+├── index.html
+├── package.json
+└── vite.config.js
 ```
 
----
-
-## 🚀 Getting Started
+## ⚙️ Getting Started
 
 ### Prerequisites
 
-Ensure you have the following installed on your environment:
-- **Node.js**: `v18.0.0` or higher
-- **npm**: `v9.0.0` or higher
+- Node.js (18 or newer recommended)
+- npm
 
 ### Installation
 
-1. **Clone the repository**:
+1. Clone your repository:
+
    ```bash
-   git clone <repository-url>
-   cd portfolio
+   git clone <your-portfolio-repository-url>
    ```
 
-2. **Install dependencies**:
+2. Open the project directory:
+
+   ```bash
+   cd <your-project-folder>
+   ```
+
+3. Install dependencies:
+
    ```bash
    npm install
    ```
 
-3. **Start the development server**:
+4. Create a `.env` file in the project root and configure EmailJS:
+
+   ```env
+   VITE_PHONE_NUMBER=your_phone_number
+   VITE_EMAILJS_SERVICE_ID=your_service_id
+   VITE_EMAILJS_TEMPLATE_ID=your_template_id
+   VITE_EMAILJS_PUBLIC_KEY=your_public_key
+   ```
+
+5. Start the development server:
+
    ```bash
    npm run dev
    ```
-   Open `http://localhost:5174` in your browser to view the application locally.
 
-4. **Expose to local network (Mobile Testing)**:
-   Access `http://<your-local-ip>:5174` from any phone connected to the same Wi-Fi network.
+6. Create a production build:
 
-5. **Build for production**:
    ```bash
    npm run build
    ```
 
----
+## 🔐 Environment Variables
 
-## 🔒 License & Usage Restrictions
+The contact form requires valid EmailJS configuration to send messages.
 
-**Copyright © 2026. All Rights Reserved.**
+- `VITE_EMAILJS_SERVICE_ID`
+- `VITE_EMAILJS_TEMPLATE_ID`
+- `VITE_EMAILJS_PUBLIC_KEY`
+- `VITE_PHONE_NUMBER`
 
-This software and all associated source code, design layouts, graphics, branding assets, scripts, and media files are strictly **PROPRIETARY**.
+Never commit your `.env` file or private credentials to GitHub. Add `.env` to `.gitignore` and share only placeholder values in `.env.example`.
 
-### Terms of Use:
-- ❌ **No Unauthorized Copying**: You may **NOT** copy, clone, reproduce, or mirror any portion of this repository or its source code.
-- ❌ **No Commercial or Non-Commercial Distribution**: You may **NOT** distribute, sell, sublicense, host, publish, or commercially exploit this codebase or design.
-- ❌ **No Derivative Works**: Modification, adaptation, or creation of derivative works based on this project is strictly prohibited.
-- 🔒 **Explicit Permission Required**: Any use, modification, or deployment of this repository is strictly prohibited without explicit, written consent from the copyright holder.
+## 👨‍💻 About Me
+
+I'm Anup Kushwaha, a BCA graduate/student and aspiring Full-Stack Developer interested in building responsive, interactive, and user-friendly web applications.
+
+I enjoy learning modern web technologies, solving development problems, and turning ideas into practical projects.
+
+## 📫 Connect With Me
+
+- **GitHub:** https://github.com/anupkushwaha-cs
+- **LinkedIn:** https://www.linkedin.com/in/anup-kushwa-357522399/
+- **Email:** anupkushwaha916@gmail.com
+- **Portfolio:** https://sky-mart-pink.vercel.app/
+
+## 📄 License
+
+Add a license that matches the permissions granted by the original project and any assets or code you use. Do not claim unrestricted rights to third-party code without permission.
